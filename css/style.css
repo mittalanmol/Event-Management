@@ -1,0 +1,292 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#header {
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  z-index: 2;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.myra-logo {
+  width: 295px;
+  height: 59px;
+}
+
+@media(max-width:880px) {
+  .myra-logo {
+    width: 180px;
+    height: 36px;
+  }
+}
+
+.main-nav {
+  margin-left: 5em;
+}
+
+.main-nav-items {
+  margin-left: 0em;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 3.5em;
+}
+
+/************************************************************************************/
+
+.carousel-content {
+  font-family: 'Martel', serif;
+  color: #ffffff;
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  z-index: 3;
+  padding: 5em 0em;
+  border: solid 14px rgba(255, 255, 255, 0.2);
+  /* text-shadow: 0 1px 2px rgba(0, 0, 0, .6); */
+}
+
+.content-div {
+  padding: 1em;
+  background-color: #AF2429;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #D0BC60;
+  padding: 10px 20px 10px 20px;
+  margin-top: 2.5em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #247E86;
+  text-decoration: none;
+}
+
+/**************************************************************************/
+
+
+#welcome {
+  padding: 7em 0em;
+}
+
+.colm-img {
+  width: 422px;
+  height: 535px;
+}
+
+@media(max-width:880px) {
+
+  #welcome {
+    padding: 2em 0em;
+  }
+
+  .first-colm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .colm-img {
+    width: 370px;
+    height: 396px;
+  }
+}
+
+.sec-caro {
+  margin: 3em;
+  margin-right: 0%;
+  z-index: 1;
+  position: absolute;
+  bottom: 3em;
+  left: 18%;
+  width: 25%;
+  /* By this image not changes from all over the screen instead it changes within specified region like 25% width */
+}
+
+@media(max-width:880px) {
+  .sec-caro {
+    bottom: 50.5em;
+    left: 0%;
+    z-index: 1;
+    width: 90%;
+
+  }
+}
+
+sec-colm {
+  padding-left: 5em;
+}
+
+/* Write media query after main css */
+@media(max-width:880px) {
+  .sec-colm {
+    padding-top: 1.5em;
+    padding-left: 1em;
+  }
+}
+
+
+.colm-h4 {
+  color: #AF2429;
+  font-size: larger;
+}
+
+.colm-para {
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-left: 0em;
+  text-align: justify;
+}
+
+.colm-italic-line {
+  font-family: 'Martel', serif;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 1em;
+}
+
+
+
+.btn-second {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #AF2429;
+  padding: 12px 25px 12px 25px;
+  text-decoration: none;
+}
+
+.btn-second:hover {
+  background: #1F3334;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.red-line1 {
+  font-weight: bold;
+  color: #AF2429;
+  margin: 0%;
+}
+
+.red-line2 {
+  font-weight: bold;
+  color: #AF2429;
+  margin: 0%;
+  margin-left: 5.6em;
+}
+
+/******************************************************************/
+
+#services {
+  background-color: #F6F7F8;
+  padding: 4em 0em;
+}
+
+.service-line1 {
+  color: #AF2429;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0%;
+}
+
+.service-line2 {
+  margin-top: 0%;
+  text-align: center;
+  line-height: 18px;
+  /* it is used to make  less height differnce btw two lines  */
+  margin-bottom: 2em;
+}
+
+/* .tryy {
+  display: flex;
+} */
+
+.ty1 {
+  width: 720px;
+  margin-bottom: 1em;
+}
+
+.ty4 {
+  margin-top: 1em;
+  width: 720px;
+}
+
+.ty5 {
+  width: 720px;
+  margin-bottom: 1em;
+}
+
+/**********************************************************************/
+
+#special {
+  padding: 4em 0em;
+}
+
+.special-line1 {
+  color: #AF2429;
+  text-align: center;
+  font-size: 18px;
+}
+
+.special-line2 {
+  text-align: center;
+  padding: 0 8em;
+  font-size: 18px;
+}
+
+.container {
+  margin-top: 4em;
+  margin-left: 10em;
+}
+
+@media(max-width:880px) {
+
+  .special-line2 {
+    padding: 1em 0em;
+  }
+
+  .container {
+    margin-left: 0em;
+  }
+
+  .specl-div2 {
+    margin-top: 1.5em;
+  }
+
+  .specl-div3 {
+    margin-top: 1.5em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #AF2429;
+  font-weight: 650;
+}
+
+a:hover {
+  color: gray;
+}
+
+
+hr {
+  color: black;
+  margin: 5px 0px;
+  width: 350px;
+}
